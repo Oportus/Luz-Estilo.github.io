@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+/* Inicio de Barra */
+.Barra{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+}
+.Barra .logo img{
+    height: 200px;
+    width: auto;
+}
+.Barra .logo{
+    cursor: pointer;
+}
+.Barra .logo img:hover{
+    transform: scale(1.1);
+}
+.Barra .nav-bar{
+    list-style: none;
+}
+.Barra .nav-bar li{
+    display: inline-block;
+    padding: 30px;
+}
+.Barra .nav-bar li:hover{
+    transform: scale(1.5);
+}
+.Barra .nav-bar li a{
+    font-size: 500;
+    color: white;
+    text-decoration: none;
+}
+.Barra .nav-bar li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.Barra .btn button{
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    padding: 9px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.Barra .btn button:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1);
+}
+
+/* Fin Barra  */
